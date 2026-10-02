@@ -7,7 +7,7 @@ import sys
 import os
 import ctypes
 
-# Add project root directory to sys.path
+# Add  project root directory to sys.path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from app.ui.main_window import MainWindow
